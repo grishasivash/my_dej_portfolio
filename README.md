@@ -6,4 +6,4 @@
 
 **Результат:**
 1. Описание предматной области
-2. ER-диаграммы: Dimensional modeling, Data Vault, [Anchor modeling](dwh_design/Anchor Modeling.png "Anchor modeling")
+2. ER-диаграммы: Dimensional modeling, Data Vault, [**Anchor modeling**](https://github.com/grishasivash/my_projects/blob/7e71e021c1e55ac36b403147c51db2f851fc0234/dwh_design/Anchor%20Modeling.png "Anchor modeling")
