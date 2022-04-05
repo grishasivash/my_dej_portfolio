@@ -90,3 +90,22 @@
 **Результат:** [**Процесс анализа**](https://github.com/grishasivash/my_dej_portfolio/blob/661159d48b9ce6dcabb839ac4c52c8cb1ec022ab/pydeequ/PySparkAnalayzer.py "**Процесс анализа**")
 
 ------------
+
+### ✅  Развернуть Spark в K8S (Cloud Solutions)
+
+**Задача:** 
+1. Необходимо в кластере Kubernetes установить Spark Operator.
+
+2. С помощью Spark Operator запустить тестовое приложение для расчета числа Пи.
+
+3. Запустить свое приложение, которое прочитает данные из S3 и переложит их в другой бакет в S3.
+
+4. Установить Spark History Server в Kubernetes.
+
+5. Запустить приложение Spark, которое будет писать логи в Spark History Server.
+
+**Результат:** сделано, но результат не показать
+
+**Дополнительно:** также в облачном K8S был развернут JupyterHub и MLFlow.
+
+------------
