@@ -29,3 +29,15 @@
 **Результат:** [**spark приложение**](https://github.com/grishasivash/my_dej_portfolio/blob/cee623f91119f721614cac1ccc8e1e8f64548481/spark_job_datamart_nytaxi.py "**spark приложениее**")
 
 **Пояснение:** задача решалась в облачном кластере yandex.cloud
+
+------------
+
+### ✅  Создание DAG и Operator (Airflow)
+
+**Задача #1:** Создать DAG, который : работает с понедельника по субботу, но не по воскресеньям, ходит в GreenPlum, забирает из таблицы articles значение поля heading из строки с id, равным дню недели, складывает получившееся значение в XCom.
+
+**Результат:** [**DAG**](https://github.com/grishasivash/my_dej_portfolio/blob/f674fc5de6371e693303778d2dcc55d56c76b34d/airflow/get_value_from_gp.py "**DAG**")
+
+**Задача #2:** Создать DAG, который : cоздает в GreenPlum'е таблицу с названием "<название>" с полями id, name, type, dimension, resident_cnt. С помощью API (https://rickandmortyapi.com/documentation/#location) находит три локации сериала "Рик и Морти" с наибольшим количеством резидентов. Записывает значения соответствующих полей этих трёх локаций в таблицу. 
+
+**Результат:** [**DAG**](https://github.com/grishasivash/my_dej_portfolio/blob/f674fc5de6371e693303778d2dcc55d56c76b34d/airflow/write_to_gp_from_api.py "**DAG**"), [**Operator**](https://github.com/grishasivash/my_dej_portfolio/blob/f674fc5de6371e693303778d2dcc55d56c76b34d/airflow/g_sivash_4_top3_operator.py "**Operator**")
