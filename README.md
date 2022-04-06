@@ -24,7 +24,7 @@
 
 ### ✅  Создание витрины данных (Spark)
 
-**Задача:** в облачном кластере скопировать в свой S3-бакет открытый датасет [NYC Yellow Taxi](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page "NYC Yellow Taxi") и написать spark приложение, использующее скопированные в бакет данные и вычисляющее отчет на каждый месяц 2020 года с тремя колонками: Payment type, Month, Average trip cost, Avg trip km cost.
+**Задача:** в облачном кластере скопировать в свой S3-бакет открытый датасет [NYC Yellow Taxi](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page "NYC Yellow Taxi") и написать spark приложение, использующее скопированные в бакет данные и вычисляющее отчет на каждый месяц 2020 года с четырьмя колонками: Payment type, Month, Average trip cost, Avg trip km cost.
 
 **Результат:** [**spark приложение**](https://github.com/grishasivash/my_dej_portfolio/blob/cee623f91119f721614cac1ccc8e1e8f64548481/spark_job_datamart_nytaxi.py "**spark приложениее**")
 
